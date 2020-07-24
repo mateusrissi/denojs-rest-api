@@ -40,3 +40,5 @@ A PATCH request to the endpoint '/users/', followed by the ID of the user, with 
 ###### Remove a user
 A DELETE request to the endpoint '/users/', followed by the ID of the user.
 
+###### Login
+A POST request to the '/login/' endpoint with a JSON body with the fields: email and password. If there is a user that matches these fields, the response body will bring a token that will expire in 15 minutes.
