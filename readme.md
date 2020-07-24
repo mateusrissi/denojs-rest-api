@@ -12,7 +12,7 @@ deno run --allow-net --allow-write --allow-read --allow-plugin --unstable src/ap
 The routes are handled by the [oak](https://deno.land/x/oak) lib and the password encryption is done with the [BCrypt](https://deno.land/x/bcrypt) lib.
 
 # Frontend
-It has no frontend for interaction with the API, but I did create a login page with VUE.js that use the '/login/' endpoint for authentication. This frontend repo can be found [here](https://github.com/mtrissi/vue-login-page-for-denojs-app).
+It has no frontend for interaction with the API, but I did create a login page with VUE.js that use the '/login/' endpoint for authentication. This frontend repo can be found [here](https://github.com/mtrissi/vuejs-login-page).
 
 # Requests
 Description of the possible requests.
