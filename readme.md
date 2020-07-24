@@ -1,7 +1,7 @@
 # Deno.js REST API
 <img alt="Deno.js Logo" src="./img/deno-logo.png" width="200" height="200" />
 
-This is a simple REST API developed by me using [deno.js](https://deno.land/). It offers a CRUD for a simple 'users' MongoDB database.
+This is a simple REST API developed with [deno.js](https://deno.land/). It offers a CRUD for a simple 'users' MongoDB database.
 
 In order to run the app, from the root directory run the following command:
 
