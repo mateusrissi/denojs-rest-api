@@ -43,5 +43,5 @@ A DELETE request to the endpoint '/users/', followed by the ID of the user.
 ###### Login
 A POST request to the '/login/' endpoint with a JSON body with the fields: email and password. If there is a user that matches these fields, the response body will bring a token that will expire in 15 minutes.
 
-## Frontend
+# Frontend
 It has no frontend for interaction with the API, but I did create a login page with VUE.js that use the '/login/' endpoint for authentication. This frontend repo can be found [here](https://github.com/mtrissi/vue-login-page-for-denojs-app).
